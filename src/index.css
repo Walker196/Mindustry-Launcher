@@ -1,0 +1,259 @@
+@font-face {
+  font-family: 'Mindustry';
+  src: url('./assets/fonts/Audiowide-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 4px var(--accent); }
+  50% { box-shadow: 0 0 12px var(--accent); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float-grid {
+  0% { background-position: 0 0; }
+  100% { background-position: 40px 40px; }
+}
+
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% {opacity: 0.8;}
+}
+
+:root {
+  --sidebar-width: 220px;
+  --titlebar-height: 38px;
+  --statusbar-height: 28px;
+
+  --bg-primary: #0d0d1a;
+  --bg-secondary: #13132b;
+  --bg-tertiary: #1a1a35;
+
+  --text-primary: #e0e0f0;
+  --text-secondary: #9090b0;
+  --text-muted: #606080;
+
+  --accent: #5b8def;
+  --accent-glow: rgba(91, 141, 239, 0.4);
+  --accent-hover: #7aa8ff;
+
+  --success: #4caf50;
+  --success-glow: rgba(76, 175, 80, 0.4);
+  --danger: #f44336;
+  --danger-glow: rgba(244, 67, 54, 0.4);
+  --warning: #ff9800;
+  --warning-glow: rgba(255, 152, 0, 0.4);
+
+  --border-color: #2a2a4a;
+  --border-width: 2px;
+  --shadow-hard: 4px 4px 0px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 12px var(--accent-glow);
+  --shadow-card: 0 4px 8px rgba(0, 0, 0, 0.4);
+
+  --grid-color: rgba(255, 255, 255, 0.03);
+  --grid-size: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mindustry', 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow: hidden;
+  user-select: none;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(var(--grid-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  animation: float-grid 20s linear infinite;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+.btn {
+  padding: 8px 16px;
+  border: var(--border-width) solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  transition: all 0.15s ease-out;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-glow);
+  background: var(--bg-tertiary);
+}
+
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 0 4px var(--accent-glow);
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  box-shadow: 0 0 16px var(--accent-glow);
+}
+
+.btn-danger {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.btn-danger:hover {
+  border-color: var(--danger);
+  box-shadow: 0 0 12px var(--danger-glow);
+}
+
+.btn-sm {
+  padding: 4px 10px;
+  font-size: 11px;
+}
+
+.card {
+  background: var(--bg-secondary);
+  border: var(--border-width) solid var(--border-color);
+  box-shadow: var(--shadow-hard);
+  padding: 16px;
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.5), 0 0 12px var(--accent-glow);
+}
+
+.tab {
+  padding: 8px 20px;
+  background: var(--bg-secondary);
+  border: var(--border-width) solid var(--border-color);
+  border-bottom: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.15s ease-out;
+}
+
+.tab.active {
+  background: var(--bg-primary);
+  color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 -2px 8px var(--accent-glow);
+}
+
+.progress-track {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  height: 8px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-hover) 50%, var(--accent) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s infinite linear;
+  transition: width 0.2s;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid;
+  clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-box {
+  background: var(--bg-secondary);
+  border: var(--border-width) solid var(--border-color);
+  box-shadow: var(--shadow-hard), var(--shadow-glow);
+  padding: 24px;
+  min-width: 360px;
+  max-width: 480px;
+  text-align: center;
+  animation: slide-up 0.25s ease-out;
+}
+
+.toast {
+  border: var(--border-width) solid var(--border-color);
+  box-shadow: var(--shadow-hard);
+  padding: 10px 20px;
+  color: var(--text-primary);
+  font-size: 13px;
+  white-space: nowrap;
+  animation: slide-up 0.3s ease-out;
+}
+
+.toast-success { border-color: var(--success); box-shadow: 4px 4px 0px rgba(0,0,0,0.5), 0 0 8px var(--success-glow); }
+.toast-error   { border-color: var(--danger);  box-shadow: 4px 4px 0px rgba(0,0,0,0.5), 0 0 8px var(--danger-glow); }
+.toast-warning { border-color: var(--warning); box-shadow: 4px 4px 0px rgba(0,0,0,0.5), 0 0 8px var(--warning-glow); }
+.toast-info    { border-color: var(--accent);  box-shadow: 4px 4px 0px rgba(0,0,0,0.5), 0 0 8px var(--accent-glow); }

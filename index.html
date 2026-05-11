@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mindustry Launcher</title>
+    <style>
+      :root {
+        --bg-primary: #1e1e2e;
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="loader" style="display: flex; justify-content: center; align-items: center; height: 100vh; background: var(--bg-primary); position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 99999;">
+      <img src="/icon.png" alt="Loading" style="width: 80px; opacity: 0.9; animation: pulse 1.5s infinite;"/>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
