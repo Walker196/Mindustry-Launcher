@@ -1,0 +1,905 @@
+{
+  "mods": [
+    {
+      "name": "Yuria-Shikibe/NewHorizonMod",
+      "display_name": "NewHorizonMod",
+      "author": "Yuria-Shikibe",
+      "description": "A Java mod for Mindustry v7",
+      "repo": "Yuria-Shikibe/NewHorizonMod",
+      "stars": 571,
+      "last_updated": "2026-05-10T17:37:33Z"
+    },
+    {
+      "name": "AureusStratus/ExoGenesis",
+      "display_name": "ExoGenesis",
+      "author": "AureusStratus",
+      "description": "Note! The Exogensis mod is currently being ported to java, and i will not be doing anything rn with the current mod",
+      "repo": "AureusStratus/ExoGenesis",
+      "stars": 439,
+      "last_updated": "2026-05-09T00:56:18Z"
+    },
+    {
+      "name": "sk7725/BetaMindy",
+      "display_name": "BetaMindy",
+      "author": "sk7725",
+      "description": "A java mod of Mindustry, made for testing and doing chaotic fun.",
+      "repo": "sk7725/BetaMindy",
+      "stars": 360,
+      "last_updated": "2026-04-26T10:32:45Z"
+    },
+    {
+      "name": "Xeloboyo/Factoriodustry",
+      "display_name": "Factoriodustry",
+      "author": "Xeloboyo",
+      "description": "A texturepack for mindustry, currently in dev",
+      "repo": "Xeloboyo/Factoriodustry",
+      "stars": 253,
+      "last_updated": "2026-04-25T12:49:04Z"
+    },
+    {
+      "name": "EyeOfDarkness/AdvanceContent",
+      "display_name": "AdvanceContent",
+      "author": "EyeOfDarkness",
+      "description": "Advance Content, a mindustry mod that gives you 50+ turrets most of which uses scripts, this mod will help beginners learn the art of modding, scripting and sprite making(hopefully)",
+      "repo": "EyeOfDarkness/AdvanceContent",
+      "stars": 249,
+      "last_updated": "2026-04-22T06:01:32Z"
+    },
+    {
+      "name": "guiYMOUR/mindustry-Extra-Utilities-mod",
+      "display_name": "mindustry-Extra-Utilities-mod",
+      "author": "guiYMOUR",
+      "description": "Now start adapting to the new version",
+      "repo": "guiYMOUR/mindustry-Extra-Utilities-mod",
+      "stars": 248,
+      "last_updated": "2026-05-01T13:12:50Z"
+    },
+    {
+      "name": "Catana791/Asthosus",
+      "display_name": "Asthosus",
+      "author": "Catana791",
+      "description": "A Mindustry mod adding a new planet including custom tech and a campaign: Asthosus. ",
+      "repo": "Catana791/Asthosus",
+      "stars": 230,
+      "last_updated": "2026-05-10T09:28:45Z"
+    },
+    {
+      "name": "xzxADIxzx/Scheme-Size",
+      "display_name": "Scheme-Size",
+      "author": "xzxADIxzx",
+      "description": "No longer just increases the schema size",
+      "repo": "xzxADIxzx/Scheme-Size",
+      "stars": 231,
+      "last_updated": "2026-05-03T16:36:24Z"
+    },
+    {
+      "name": "LixieWulf/Allure",
+      "display_name": "Allure",
+      "author": "LixieWulf",
+      "description": "A massive HJSON mod focusing around quick-action, immersive RTS gameplay. Lore package included.",
+      "repo": "LixieWulf/Allure",
+      "stars": 226,
+      "last_updated": "2026-04-25T07:06:12Z"
+    },
+    {
+      "name": "MindustryTool/MindustryToolMod",
+      "display_name": "MindustryToolMod",
+      "author": "MindustryTool",
+      "description": "A Mindustry mod for browsing, sharing, and downloading verifed maps and schematics directly in game with seamless integration.",
+      "repo": "MindustryTool/MindustryToolMod",
+      "stars": 214,
+      "last_updated": "2026-05-09T16:18:56Z"
+    },
+    {
+      "name": "AvantTeam/ProjectUnityPublic",
+      "display_name": "ProjectUnityPublic",
+      "author": "AvantTeam",
+      "description": "A public, stripped down workspace of the Project Unity mod, a mega-collaboration Mindustry mod. Not intended to be played yet; this is purely for code publicity and healthy competition reasons.",
+      "repo": "AvantTeam/ProjectUnityPublic",
+      "stars": 182,
+      "last_updated": "2026-05-09T00:56:20Z"
+    },
+    {
+      "name": "sk7725/TimeControl",
+      "display_name": "TimeControl",
+      "author": "sk7725",
+      "description": "Speeds up or slows down Mindustry.",
+      "repo": "sk7725/TimeControl",
+      "stars": 171,
+      "last_updated": "2026-05-11T01:07:07Z"
+    },
+    {
+      "name": "JerichoFletcher/mechanical-warfare",
+      "display_name": "mechanical-warfare",
+      "author": "JerichoFletcher",
+      "description": "Mechanical Warfare is a Mindustry mod adding brand new units, mechs, and turrets. Not for the faintest of engines. NOTE: This mod is now discontinued. Most or all contents, primarily units, will be merged to Project Unity by AvantTeam.",
+      "repo": "JerichoFletcher/mechanical-warfare",
+      "stars": 166,
+      "last_updated": "2026-02-26T13:21:37Z"
+    },
+    {
+      "name": "sk7725/Commandblocks",
+      "display_name": "Commandblocks",
+      "author": "sk7725",
+      "description": "Mindustry Command Mod: A highly utilitarian mod with fun and useful blocks such as Command Blocks, Dash Panels and Pistons; New features such as Skills; And an upcoming new Gamemode!",
+      "repo": "sk7725/Commandblocks",
+      "stars": 156,
+      "last_updated": "2026-04-27T09:17:41Z"
+    },
+    {
+      "name": "Slava0135/reVision",
+      "display_name": "reVision",
+      "author": "Slava0135",
+      "description": "Install for fresh and revised mindustry experience",
+      "repo": "Slava0135/reVision",
+      "stars": 148,
+      "last_updated": "2026-04-27T12:51:54Z"
+    },
+    {
+      "name": "Aeyama-Mod/aeyama",
+      "display_name": "aeyama",
+      "author": "Aeyama-Mod",
+      "description": "A mindustry mod that let you explore and play differently from the base game!",
+      "repo": "Aeyama-Mod/aeyama",
+      "stars": 138,
+      "last_updated": "2026-03-01T04:44:18Z"
+    },
+    {
+      "name": "stabu-dev/Omaloon",
+      "display_name": "Omaloon",
+      "author": "stabu-dev",
+      "description": "An ambitious Mindustry mod developed by stabu and uujuju.",
+      "repo": "stabu-dev/Omaloon",
+      "stars": 137,
+      "last_updated": "2026-05-08T18:27:33Z"
+    },
+    {
+      "name": "3Snake3/Sapphirium",
+      "display_name": "Sapphirium",
+      "author": "3Snake3",
+      "description": "This mod adds a lot of additional content.",
+      "repo": "3Snake3/Sapphirium",
+      "stars": 133,
+      "last_updated": "2026-05-09T05:12:01Z"
+    },
+    {
+      "name": "Eschatologue/Unlimited-Armament-Works",
+      "display_name": "Unlimited-Armament-Works",
+      "author": "Eschatologue",
+      "description": "Sequel to Heavy Armaments Industries, a mod for mindustry written in Java. expands your mindustry arsenal | Discord : Geschiedenis#4783",
+      "repo": "Eschatologue/Unlimited-Armament-Works",
+      "stars": 130,
+      "last_updated": "2026-05-07T10:54:02Z"
+    },
+    {
+      "name": "RA2EXE/Saturation-Firepower",
+      "display_name": "Saturation-Firepower",
+      "author": "RA2EXE",
+      "description": "A java mod for Mindustry V8",
+      "repo": "RA2EXE/Saturation-Firepower",
+      "stars": 127,
+      "last_updated": "2026-04-25T13:58:06Z"
+    },
+    {
+      "name": "Catana791/Fading-Revelations",
+      "display_name": "Fading-Revelations",
+      "author": "Catana791",
+      "description": "NO LONGER IN DEVELOPMENT! A content extension mod for the game Mindustry.",
+      "repo": "Catana791/Fading-Revelations",
+      "stars": 125,
+      "last_updated": "2026-04-08T10:36:25Z"
+    },
+    {
+      "name": "BlackDeluxeCat/MI2-Utilities-Java",
+      "display_name": "MI2-Utilities-Java",
+      "author": "BlackDeluxeCat",
+      "description": "Quality-of-life vanilla mod. For destined Mindustry players.",
+      "repo": "BlackDeluxeCat/MI2-Utilities-Java",
+      "stars": 118,
+      "last_updated": "2026-05-03T02:29:43Z"
+    },
+    {
+      "name": "liplum/CyberIO",
+      "display_name": "CyberIO",
+      "author": "liplum",
+      "description": "The Cybernetics on Mindustry v7.",
+      "repo": "liplum/CyberIO",
+      "stars": 117,
+      "last_updated": "2026-04-08T10:38:12Z"
+    },
+    {
+      "name": "way-zer/ScriptAgent4MindustryExt",
+      "display_name": "ScriptAgent4MindustryExt",
+      "author": "way-zer",
+      "description": "A Plugin for Mindustry to load kotlin scripts && lots of feature scripts including vote/permission.",
+      "repo": "way-zer/ScriptAgent4MindustryExt",
+      "stars": 112,
+      "last_updated": "2026-05-05T11:40:58Z"
+    },
+    {
+      "name": "QmelZ/hackustry",
+      "display_name": "hackustry",
+      "author": "QmelZ",
+      "description": "Hackustry mod for Mindustry.",
+      "repo": "QmelZ/hackustry",
+      "stars": 111,
+      "last_updated": "2026-03-08T00:19:29Z"
+    },
+    {
+      "name": "Eschatologue/Heavy-Armaments-Industries",
+      "display_name": "Heavy-Armaments-Industries",
+      "author": "Eschatologue",
+      "description": "Expands your Mindustry Arsenal! Heavy Armaments Industries is now discontinued, all future development will be implmented at Eschatologue/Unlimited-Armament-Works",
+      "repo": "Eschatologue/Heavy-Armaments-Industries",
+      "stars": 104,
+      "last_updated": "2026-04-22T06:03:10Z"
+    },
+    {
+      "name": "WilloIzCitron/ArchiveDustry-Java",
+      "display_name": "ArchiveDustry-Java",
+      "author": "WilloIzCitron",
+      "description": "Blue Archive Soundtracks and Cosmetics in Mindustry",
+      "repo": "WilloIzCitron/ArchiveDustry-Java",
+      "stars": 99,
+      "last_updated": "2026-05-10T20:20:15Z"
+    },
+    {
+      "name": "Sharlottes/Informatis",
+      "display_name": "Informatis",
+      "author": "Sharlottes",
+      "description": "The Utility&Informational mod, compatible on multiplay. displays useful information over vanila",
+      "repo": "Sharlottes/Informatis",
+      "stars": 99,
+      "last_updated": "2026-05-03T17:10:40Z"
+    },
+    {
+      "name": "Twcash/Aquarion",
+      "display_name": "Aquarion",
+      "author": "Twcash",
+      "description": "Face your sins in the watery deep. Or smth idk",
+      "repo": "Twcash/Aquarion",
+      "stars": 97,
+      "last_updated": "2026-05-10T20:16:13Z"
+    },
+    {
+      "name": "MEEPofFaith/Ohno-Missiles",
+      "display_name": "Ohno-Missiles",
+      "author": "MEEPofFaith",
+      "description": "With the new ballistic missile, you can nuke the enemies with various missile silos.",
+      "repo": "MEEPofFaith/Ohno-Missiles",
+      "stars": 94,
+      "last_updated": "2025-08-07T01:05:59Z"
+    },
+    {
+      "name": "ZielonyTrojkat/Frozen-Farlands",
+      "display_name": "Frozen-Farlands",
+      "author": "ZielonyTrojkat",
+      "description": "Discover Serpulo's moon! Zilo - place with freezing atmosphere and challenging enemies!",
+      "repo": "ZielonyTrojkat/Frozen-Farlands",
+      "stars": 89,
+      "last_updated": "2026-03-31T12:29:12Z"
+    },
+    {
+      "name": "MEEPofFaith/prog-mats-java",
+      "display_name": "prog-mats-java",
+      "author": "MEEPofFaith",
+      "description": "A java Mindustry mod. Just me making random stuff.",
+      "repo": "MEEPofFaith/prog-mats-java",
+      "stars": 86,
+      "last_updated": "2026-05-09T05:39:35Z"
+    },
+    {
+      "name": "z0mbiesrock/Diamond-Ore",
+      "display_name": "Diamond-Ore",
+      "author": "z0mbiesrock",
+      "description": "Mindustry mod that adds the Diamond resource.",
+      "repo": "z0mbiesrock/Diamond-Ore",
+      "stars": 83,
+      "last_updated": "2026-03-25T12:35:58Z"
+    },
+    {
+      "name": "abomb4/super-cheat",
+      "display_name": "super-cheat",
+      "author": "abomb4",
+      "description": "A Mindustry cheat mod, may useful for modders (DPS Test, Unit Factory, Item source, Team Changer)",
+      "repo": "abomb4/super-cheat",
+      "stars": 82,
+      "last_updated": "2026-04-26T08:19:52Z"
+    },
+    {
+      "name": "deltanedas/pictologic",
+      "display_name": "pictologic",
+      "author": "deltanedas",
+      "description": "Mindustry mod that adds an ingame PNG to logic display schematic converter.",
+      "repo": "deltanedas/pictologic",
+      "stars": 79,
+      "last_updated": "2025-12-12T07:23:21Z"
+    },
+    {
+      "name": "deltanedas/rtfm",
+      "display_name": "rtfm",
+      "author": "deltanedas",
+      "description": "A documentation library mod for Mindustry.",
+      "repo": "deltanedas/rtfm",
+      "stars": 78,
+      "last_updated": "2026-05-01T19:07:41Z"
+    },
+    {
+      "name": "jammuwu/BioTech",
+      "display_name": "BioTech",
+      "author": "jammuwu",
+      "description": "You discovered a planet that seemed like it was... \"alive\"?",
+      "repo": "jammuwu/BioTech",
+      "stars": 78,
+      "last_updated": "2026-05-10T11:13:57Z"
+    },
+    {
+      "name": "MemFaceGo/Better-Blocks-Mod",
+      "display_name": "Better-Blocks-Mod",
+      "author": "MemFaceGo",
+      "description": "This mod adds more blocks , materials and enemies OH NO",
+      "repo": "MemFaceGo/Better-Blocks-Mod",
+      "stars": 77,
+      "last_updated": "2026-04-22T06:03:54Z"
+    },
+    {
+      "name": "deltanedas/ui-lib",
+      "display_name": "ui-lib",
+      "author": "deltanedas",
+      "description": "Mindustry library mod that unifies and simplifies UI creation.",
+      "repo": "deltanedas/ui-lib",
+      "stars": 75,
+      "last_updated": "2026-04-05T10:14:28Z"
+    },
+    {
+      "name": "tezlm/community-mod",
+      "display_name": "community-mod",
+      "author": "tezlm",
+      "description": "all prs are automatically merged - star the mod to become a collaborator",
+      "repo": "tezlm/community-mod",
+      "stars": 75,
+      "last_updated": "2026-05-09T00:56:19Z"
+    },
+    {
+      "name": "VvSeanGTvV/Project-Restoration",
+      "display_name": "Project-Restoration",
+      "author": "VvSeanGTvV",
+      "description": "Adds old prototype/legacy/classic units/blocks from existing old builds and also old mods to modern Mindustry!",
+      "repo": "VvSeanGTvV/Project-Restoration",
+      "stars": 71,
+      "last_updated": "2026-05-01T16:58:54Z"
+    },
+    {
+      "name": "EB-wilson/TooManyItems",
+      "display_name": "TooManyItems",
+      "author": "EB-wilson",
+      "description": "一个辅助mod，为您提供快速检索材料，单位，建筑和矿物等的生产与采集引导信息",
+      "repo": "EB-wilson/TooManyItems",
+      "stars": 66,
+      "last_updated": "2026-05-09T11:57:26Z"
+    },
+    {
+      "name": "Slotterleet/GoldMod",
+      "display_name": "GoldMod",
+      "author": "Slotterleet",
+      "description": "My first mod for Anuke's Mindustry. There are only few things at the moment, but a lot of content is coming soon.",
+      "repo": "Slotterleet/GoldMod",
+      "stars": 63,
+      "last_updated": "2025-02-11T18:13:24Z"
+    },
+    {
+      "name": "TeamOct/FOS",
+      "display_name": "FOS",
+      "author": "TeamOct",
+      "description": "",
+      "repo": "TeamOct/FOS",
+      "stars": 62,
+      "last_updated": "2026-05-09T00:56:17Z"
+    },
+    {
+      "name": "MEEPofFaith/testing-utilities-java",
+      "display_name": "testing-utilities-java",
+      "author": "MEEPofFaith",
+      "description": "Just some small utilities for sandbox/modding",
+      "repo": "MEEPofFaith/testing-utilities-java",
+      "stars": 60,
+      "last_updated": "2026-05-04T17:11:37Z"
+    },
+    {
+      "name": "Garmundo/Extended-unit-arsenal",
+      "display_name": "Extended-unit-arsenal",
+      "author": "Garmundo",
+      "description": "Mindustry mod focused on expanding the unit archive and adding new campaign maps",
+      "repo": "Garmundo/Extended-unit-arsenal",
+      "stars": 60,
+      "last_updated": "2026-04-22T06:04:26Z"
+    },
+    {
+      "name": "Pointifix/AutoDrill",
+      "display_name": "AutoDrill",
+      "author": "Pointifix",
+      "description": "Mindustry Mod that adds tools for automatically filling resource patches with drills. Pointifix#4403",
+      "repo": "Pointifix/AutoDrill",
+      "stars": 59,
+      "last_updated": "2026-05-03T17:13:50Z"
+    },
+    {
+      "name": "liplum/MultiCrafterLib",
+      "display_name": "MultiCrafterLib",
+      "author": "liplum",
+      "description": "A Mindustry mod library provides a multiple-recipe crafter to produce items, fluids, power or even heat for Json and JavaScript mods.",
+      "repo": "liplum/MultiCrafterLib",
+      "stars": 59,
+      "last_updated": "2026-04-24T14:03:26Z"
+    },
+    {
+      "name": "mindustry-antigrief/installer",
+      "display_name": "installer",
+      "author": "mindustry-antigrief",
+      "description": "A simple mindustry mod to install foo's client. Please star this if you like the client :)",
+      "repo": "mindustry-antigrief/installer",
+      "stars": 55,
+      "last_updated": "2026-05-10T14:49:54Z"
+    },
+    {
+      "name": "Sharlottes/sharustry",
+      "display_name": "sharustry",
+      "author": "Sharlottes",
+      "description": "please read README to see how to play this. and star me to help me! this is very helpful and thanksful for me.",
+      "repo": "Sharlottes/sharustry",
+      "stars": 55,
+      "last_updated": "2025-05-26T13:35:29Z"
+    },
+    {
+      "name": "pixecoz/SchematicsPack",
+      "display_name": "SchematicsPack",
+      "author": "pixecoz",
+      "description": "A Mindustry mod that adds high quality schematics with easy sorting.",
+      "repo": "pixecoz/SchematicsPack",
+      "stars": 55,
+      "last_updated": "2026-04-12T06:02:33Z"
+    },
+    {
+      "name": "PetruCHIOrus/lead_ind",
+      "display_name": "lead_ind",
+      "author": "PetruCHIOrus",
+      "description": "Mindustry mod - new drills, liquids and more",
+      "repo": "PetruCHIOrus/lead_ind",
+      "stars": 54,
+      "last_updated": "2025-12-24T14:14:44Z"
+    },
+    {
+      "name": "EB-wilson/Helium",
+      "display_name": "Helium",
+      "author": "EB-wilson",
+      "description": "A mindustry mod provide optimized ui",
+      "repo": "EB-wilson/Helium",
+      "stars": 52,
+      "last_updated": "2026-05-08T06:28:49Z"
+    },
+    {
+      "name": "ThePythonGuy3/MindBlow",
+      "display_name": "MindBlow",
+      "author": "ThePythonGuy3",
+      "description": "Adds a vanilla expansion to mindustry v5. It adds multiple drills, turrets, resources, and some units.",
+      "repo": "ThePythonGuy3/MindBlow",
+      "stars": 52,
+      "last_updated": "2025-03-11T20:54:27Z"
+    },
+    {
+      "name": "TnmSpiroct/Exoprosopa",
+      "display_name": "Exoprosopa",
+      "author": "TnmSpiroct",
+      "description": "",
+      "repo": "TnmSpiroct/Exoprosopa",
+      "stars": 52,
+      "last_updated": "2026-05-09T16:29:57Z"
+    },
+    {
+      "name": "deltanedas/routorio-old",
+      "display_name": "routorio-old",
+      "author": "deltanedas",
+      "description": "Router expansion mod for Mindustry.",
+      "repo": "deltanedas/routorio-old",
+      "stars": 51,
+      "last_updated": "2025-06-06T18:23:51Z"
+    },
+    {
+      "name": "EyeOfDarkness/FlameOut",
+      "display_name": "FlameOut",
+      "author": "EyeOfDarkness",
+      "description": "If the cipher is decrypted, PU will be public.",
+      "repo": "EyeOfDarkness/FlameOut",
+      "stars": 51,
+      "last_updated": "2026-04-30T11:39:57Z"
+    },
+    {
+      "name": "Icexuegao/DeepSpace",
+      "display_name": "DeepSpace",
+      "author": "Icexuegao",
+      "description": "一个mindustry的jvmMod",
+      "repo": "Icexuegao/DeepSpace",
+      "stars": 52,
+      "last_updated": "2026-05-10T14:58:39Z"
+    },
+    {
+      "name": "FlinTyX/Animalia",
+      "display_name": "Animalia",
+      "author": "FlinTyX",
+      "description": "A fun mod that contains Animals, Plants, Natural disasters and a lot more!",
+      "repo": "FlinTyX/Animalia",
+      "stars": 49,
+      "last_updated": "2026-05-09T00:56:19Z"
+    },
+    {
+      "name": "Sharlottes/ExampleMod",
+      "display_name": "ExampleMod",
+      "author": "Sharlottes",
+      "description": "You can use multiple lib to enjoy optional additional content, so if you like, press F8 to download recommended modes, and enjoy additional content.",
+      "repo": "Sharlottes/ExampleMod",
+      "stars": 46,
+      "last_updated": "2025-07-02T01:51:43Z"
+    },
+    {
+      "name": "Andromeda-Galaxy29/Psammos-Mod",
+      "display_name": "Psammos-Mod",
+      "author": "Andromeda-Galaxy29",
+      "description": "A mod for the game Mindustry",
+      "repo": "Andromeda-Galaxy29/Psammos-Mod",
+      "stars": 45,
+      "last_updated": "2026-05-08T20:46:39Z"
+    },
+    {
+      "name": "Sh1penfire/Meld",
+      "display_name": "Meld",
+      "author": "Sh1penfire",
+      "description": "RTS mod with PVE-focused gameplay and heavy biome-based logistics.",
+      "repo": "Sh1penfire/Meld",
+      "stars": 44,
+      "last_updated": "2026-05-04T17:20:21Z"
+    },
+    {
+      "name": "Azaria-Team/Azaria",
+      "display_name": "Azaria",
+      "author": "Azaria-Team",
+      "description": "Mod created by: slish_#0000 and xxx_m1ss1onaryposeisthebest_xxx#0000. A mindustry mod that adds a lot of content, where the main focus is on mod's campaign. More content will be added in the future.",
+      "repo": "Azaria-Team/Azaria",
+      "stars": 43,
+      "last_updated": "2026-05-08T19:59:36Z"
+    },
+    {
+      "name": "MinRi2/MinerTools",
+      "display_name": "MinerTools",
+      "author": "MinRi2",
+      "description": "A mindustry mod that add many auxiliary utilities.",
+      "repo": "MinRi2/MinerTools",
+      "stars": 43,
+      "last_updated": "2026-04-22T06:05:28Z"
+    },
+    {
+      "name": "MEEPofFaith/Extra-Sand",
+      "display_name": "Extra-Sand",
+      "author": "MEEPofFaith",
+      "description": "Some small additions to sandbox for testing purposes and stuff. Except now you can get it in campaign as well.",
+      "repo": "MEEPofFaith/Extra-Sand",
+      "stars": 43,
+      "last_updated": "2025-04-15T05:43:15Z"
+    },
+    {
+      "name": "uujuju1/Steam-Works",
+      "display_name": "Steam-Works",
+      "author": "uujuju1",
+      "description": "",
+      "repo": "uujuju1/Steam-Works",
+      "stars": 43,
+      "last_updated": "2026-05-10T02:44:37Z"
+    },
+    {
+      "name": "DeerCarbonate/Azimuth",
+      "display_name": "Azimuth",
+      "author": "DeerCarbonate",
+      "description": "Azimut + 0.4 + H = AZ!MUTH!",
+      "repo": "DeerCarbonate/Azimuth",
+      "stars": 40,
+      "last_updated": "2026-05-11T05:02:59Z"
+    },
+    {
+      "name": "Sublemon-Team/Subvoyage",
+      "display_name": "Subvoyage",
+      "author": "Sublemon-Team",
+      "description": "Mindustry mod adding new oceanic-themed Atlacian planet, that aims to provide unique experience for players.",
+      "repo": "Sublemon-Team/Subvoyage",
+      "stars": 40,
+      "last_updated": "2026-01-30T13:35:43Z"
+    },
+    {
+      "name": "AeronGreva/AeroMindustry",
+      "display_name": "AeroMindustry",
+      "author": "AeronGreva",
+      "description": "A modification for Mindustry, a sandbox tower defense game mixed with elements of resource management and production.",
+      "repo": "AeronGreva/AeroMindustry",
+      "stars": 40,
+      "last_updated": "2026-04-06T16:41:13Z"
+    },
+    {
+      "name": "Ferlern/extended-UI-v7",
+      "display_name": "extended-UI-v7",
+      "author": "Ferlern",
+      "description": "Mod for game mindustry that extend your ui with some useful things",
+      "repo": "Ferlern/extended-UI-v7",
+      "stars": 40,
+      "last_updated": "2026-05-04T14:33:25Z"
+    },
+    {
+      "name": "oleglysukhin/Cheat",
+      "display_name": "Cheat",
+      "author": "oleglysukhin",
+      "description": "Mindustry Cheat Mod 7.0",
+      "repo": "oleglysukhin/Cheat",
+      "stars": 40,
+      "last_updated": "2026-03-01T00:15:26Z"
+    },
+    {
+      "name": "zeutd/Disintegration",
+      "display_name": "Disintegration",
+      "author": "zeutd",
+      "description": "mindustry mod | mdt模组                         zeutd#0000",
+      "repo": "zeutd/Disintegration",
+      "stars": 39,
+      "last_updated": "2026-02-18T13:10:28Z"
+    },
+    {
+      "name": "Uenhe/Fire",
+      "display_name": "Fire",
+      "author": "Uenhe",
+      "description": "A Mindustry Mod that adds many unique things.",
+      "repo": "Uenhe/Fire",
+      "stars": 39,
+      "last_updated": "2026-05-09T08:41:01Z"
+    },
+    {
+      "name": "EB-wilson/UniverseCore",
+      "display_name": "UniverseCore",
+      "author": "EB-wilson",
+      "description": "面向mindustry java mod的开发前置库，提供了很多有用的工具 ││ mindustry javamod develop librarian, offer some tools to help mindustry mod developing",
+      "repo": "EB-wilson/UniverseCore",
+      "stars": 39,
+      "last_updated": "2026-02-12T04:45:11Z"
+    },
+    {
+      "name": "ignyx/MindustryModCreator",
+      "display_name": "MindustryModCreator",
+      "author": "ignyx",
+      "description": "Tool to create Mindustry mods",
+      "repo": "ignyx/MindustryModCreator",
+      "stars": 39,
+      "last_updated": "2025-07-24T10:09:26Z"
+    },
+    {
+      "name": "PlumyGames/mgpp",
+      "display_name": "mgpp",
+      "author": "PlumyGames",
+      "description": "The next generation of Mindustry modding.",
+      "repo": "PlumyGames/mgpp",
+      "stars": 39,
+      "last_updated": "2026-05-03T15:54:06Z"
+    },
+    {
+      "name": "ThatOneBepis/Infinitodustry-legacy",
+      "display_name": "Infinitodustry-legacy",
+      "author": "ThatOneBepis",
+      "description": "5.0 mod, preserved for legacy purposes. It will retain its chaos.",
+      "repo": "ThatOneBepis/Infinitodustry-legacy",
+      "stars": 38,
+      "last_updated": "2026-02-21T17:30:37Z"
+    },
+    {
+      "name": "I-hope1/mod-tools",
+      "display_name": "mod-tools",
+      "author": "I-hope1",
+      "description": "A mod for mindustry 7.0",
+      "repo": "I-hope1/mod-tools",
+      "stars": 38,
+      "last_updated": "2026-04-26T05:17:19Z"
+    },
+    {
+      "name": "ItsKirby69/MineDusty",
+      "display_name": "MineDusty",
+      "author": "ItsKirby69",
+      "description": "A java mod for Mindustry which brings plant life and more into the game!",
+      "repo": "ItsKirby69/MineDusty",
+      "stars": 39,
+      "last_updated": "2026-04-22T06:05:58Z"
+    },
+    {
+      "name": "Ferlern/extended-UI",
+      "display_name": "extended-UI",
+      "author": "Ferlern",
+      "description": "Mod for game mindustry that extend your ui with some useful things WiZeR1233#9336",
+      "repo": "Ferlern/extended-UI",
+      "stars": 38,
+      "last_updated": "2026-01-02T20:32:43Z"
+    },
+    {
+      "name": "Rogeh4/VIrtual-Scheme-Pack-",
+      "display_name": "VIrtual-Scheme-Pack-",
+      "author": "Rogeh4",
+      "description": "Бета версия схем пака для Mindustry созданного кланом VIrtual Insanity",
+      "repo": "Rogeh4/VIrtual-Scheme-Pack-",
+      "stars": 38,
+      "last_updated": "2026-04-19T07:20:24Z"
+    },
+    {
+      "name": "MEEPofFaith/prog-mats-java-sonnicon",
+      "display_name": "prog-mats-java-sonnicon",
+      "author": "MEEPofFaith",
+      "description": "A place where I do random stuff with java. The name definitely isn't synonyms of Advance Content.",
+      "repo": "MEEPofFaith/prog-mats-java-sonnicon",
+      "stars": 37,
+      "last_updated": "2025-03-08T05:01:15Z"
+    },
+    {
+      "name": "deltanedas/dev-mode",
+      "display_name": "dev-mode",
+      "author": "deltanedas",
+      "description": "Mindustry mod, lets you type into the console.",
+      "repo": "deltanedas/dev-mode",
+      "stars": 37,
+      "last_updated": "2025-07-02T01:52:20Z"
+    },
+    {
+      "name": "ElectricGun/cheat-codes-mod",
+      "display_name": "cheat-codes-mod",
+      "author": "ElectricGun",
+      "description": "Cheat codes for Mindustry",
+      "repo": "ElectricGun/cheat-codes-mod",
+      "stars": 36,
+      "last_updated": "2026-05-03T11:27:53Z"
+    },
+    {
+      "name": "coaldeficit/MoreDefences",
+      "display_name": "MoreDefences",
+      "author": "coaldeficit",
+      "description": "A mod made by CD, meowkitty and 7rodo that features lots of new content, a new planet, various overhauls and more.",
+      "repo": "coaldeficit/MoreDefences",
+      "stars": 36,
+      "last_updated": "2026-05-01T17:19:54Z"
+    },
+    {
+      "name": "nullotte/Carpe-Diem",
+      "display_name": "Carpe-Diem",
+      "author": "nullotte",
+      "description": "A peaceful campaign mod which focuses on factory building.",
+      "repo": "nullotte/Carpe-Diem",
+      "stars": 35,
+      "last_updated": "2026-05-05T09:02:11Z"
+    },
+    {
+      "name": "younggam/multi-lib",
+      "display_name": "multi-lib",
+      "author": "younggam",
+      "description": "Mindustry library mod that contains multicrafter scripts",
+      "repo": "younggam/multi-lib",
+      "stars": 35,
+      "last_updated": "2025-12-20T10:22:05Z"
+    },
+    {
+      "name": "00SunRay00/scheme-size-port",
+      "display_name": "scheme-size-port",
+      "author": "00SunRay00",
+      "description": "I am not the developer of this mod; I only ported it. Credit goes to the original author: https://github.com/xzxADIxzx",
+      "repo": "00SunRay00/scheme-size-port",
+      "stars": 34,
+      "last_updated": "2026-05-09T21:23:22Z"
+    },
+    {
+      "name": "Dong-Wo-Long/BetterDuStryMod",
+      "display_name": "BetterDuStryMod",
+      "author": "Dong-Wo-Long",
+      "description": "This mod is an amalgamation of all my mods improving any vanilla.",
+      "repo": "Dong-Wo-Long/BetterDuStryMod",
+      "stars": 33,
+      "last_updated": "2026-04-27T17:28:14Z"
+    },
+    {
+      "name": "Undaria/MindustryCalamity",
+      "display_name": "MindustryCalamity",
+      "author": "Undaria",
+      "description": "A Mod built in Mindustry using the old lore of the Terraria Calamity Mod as its backstory now boasts over 300 pieces of content, two technology trees, and six campaign sectors.Players and enemies adopt different styles of technology trees.",
+      "repo": "Undaria/MindustryCalamity",
+      "stars": 33,
+      "last_updated": "2026-05-10T12:55:16Z"
+    },
+    {
+      "name": "Haznobrain/Erekir-liquefied",
+      "display_name": "Erekir-liquefied",
+      "author": "Haznobrain",
+      "description": "A mindustry mod wich adds a lot of content (units, turrets, materials, sectors.) to erekir, extending its campaign.",
+      "repo": "Haznobrain/Erekir-liquefied",
+      "stars": 33,
+      "last_updated": "2026-03-30T10:43:44Z"
+    },
+    {
+      "name": "FlinTyX/DiverseTech",
+      "display_name": "DiverseTech",
+      "author": "FlinTyX",
+      "description": "Innovate & Research new Technologies that will blow up your mind!",
+      "repo": "FlinTyX/DiverseTech",
+      "stars": 32,
+      "last_updated": "2026-05-09T00:56:18Z"
+    },
+    {
+      "name": "xpdustry/claj",
+      "display_name": "claj",
+      "author": "xpdustry",
+      "description": "CLaJ (Copy Link and Join) is a system that allows you to play with your friends, just by creating a room, copying the link and sending it to your friends.",
+      "repo": "xpdustry/claj",
+      "stars": 32,
+      "last_updated": "2026-05-10T22:02:17Z"
+    },
+    {
+      "name": "fox1va-the-fox/schems",
+      "display_name": "schems",
+      "author": "fox1va-the-fox",
+      "description": "Пак схем для игры mindustry",
+      "repo": "fox1va-the-fox/schems",
+      "stars": 32,
+      "last_updated": "2026-01-10T08:56:41Z"
+    },
+    {
+      "name": "KOCTOLOM/Mindustry-overhaul",
+      "display_name": "Mindustry-overhaul",
+      "author": "KOCTOLOM",
+      "description": "Everything rebalanced, everything new, everything new is well-forgotten old",
+      "repo": "KOCTOLOM/Mindustry-overhaul",
+      "stars": 31,
+      "last_updated": "2026-04-26T17:05:07Z"
+    },
+    {
+      "name": "Mnemotechnician/new-console",
+      "display_name": "new-console",
+      "author": "Mnemotechnician",
+      "description": "A mindustry mod that adds a superiour console ui. Outdated, see https://github.com/SMOLKEYS/new-console-hardline",
+      "repo": "Mnemotechnician/new-console",
+      "stars": 32,
+      "last_updated": "2026-05-03T17:16:17Z"
+    },
+    {
+      "name": "retodera/technologium",
+      "display_name": "technologium",
+      "author": "retodera",
+      "description": "a java mod for Mindustry. WIP.",
+      "repo": "retodera/technologium",
+      "stars": 31,
+      "last_updated": "2026-04-21T12:40:34Z"
+    },
+    {
+      "name": "way-zer/ContentsTweaker",
+      "display_name": "ContentsTweaker",
+      "author": "way-zer",
+      "description": "像素工厂内容包加载器MOD  A Mindustry MOD to dynamicly load Contents Pack",
+      "repo": "way-zer/ContentsTweaker",
+      "stars": 31,
+      "last_updated": "2025-11-15T05:45:43Z"
+    },
+    {
+      "name": "Vladislav117/The-Biggest-Mod",
+      "display_name": "The-Biggest-Mod",
+      "author": "Vladislav117",
+      "description": "My old experimental mod for Mindustry v5",
+      "repo": "Vladislav117/The-Biggest-Mod",
+      "stars": 30,
+      "last_updated": "2025-01-06T15:43:23Z"
+    },
+    {
+      "name": "xamionex/Opore-Mod",
+      "display_name": "Opore-Mod",
+      "author": "xamionex",
+      "description": "On steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1903525208",
+      "repo": "xamionex/Opore-Mod",
+      "stars": 30,
+      "last_updated": "2025-01-16T21:34:41Z"
+    }
+  ],
+  "last_updated": "2026-05-11T05:04:13.077602700+00:00"
+}
