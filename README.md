@@ -58,6 +58,21 @@
 
 *Screenshots are from the English UI. Chinese screenshots can be added similarly.*
 
+### ⚡ Preloaded Cache (Optional) 预置缓存（可选）
+
+如果你希望启动器**首次启动就能立刻显示版本和模组列表**（无需等待网络加载），可以手动下载预置缓存文件。
+To make the launcher show version and mod lists **immediately on first launch** (without waiting for network requests), you can manually download preloaded cache files.
+
+1. 从本仓库的 [`cache/`](cache/) 目录下载三个 `.json` 文件。
+1. Download the three `.json` files from the [`cache/`](cache/) folder in this repository.
+2. 将它们放入启动器安装目录下的 `Data/` 文件夹（与 `Mindustry Launcher.exe` 同级）。
+2. Place them in the `Data/` folder inside the launcher's installation directory (same folder as `Mindustry Launcher.exe`).
+3. 重启启动器后即可离线浏览。
+3. Restart the launcher—all lists will be available offline.
+
+> 启动器联网时也会自动更新这些缓存，日常使用中无需再次手动操作。
+> The launcher automatically refreshes these caches when connected to the internet, so you normally don't need to do this again.
+
 ---
 
 ## 🛠️ Tech Stack 技术栈
